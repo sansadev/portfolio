@@ -5,7 +5,6 @@
 
 body {
   background-color: #e6e6e6;
-
   font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -69,13 +68,13 @@ h4 {
 }
 
 .flex-container {
-    display: flex;
-    border: 1px solid black;
-    height: 300px;
-    width: 400px;
-    margin: 25px;
-    background-color: #8c9c97;
-    padding: 20px;
+  display: flex;
+  border: 1px solid black;
+  height: 300px;
+  width: 400px;
+  margin: 25px;
+  background-color: #8c9c97;
+  padding: 20px;
 }
 h5 {
   font-size: 2rem;
