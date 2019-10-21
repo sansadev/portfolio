@@ -139,16 +139,16 @@ h5 {
   justify-content: center;
   background-color: #414454;
   margin: 30px;
-  -webkit-transition: width 3s, height 3s, -webkit-transform 3s;
-  transition: width 3s, height 3s, transform 3s;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, transform 2s;
+
 }
 .my-goal > div:hover {
   width: 500px;
   height: 800px;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(360deg);
-  transition-timing-function: linear;
-  transition-delay: 2s;
+  transition-duration: 4s;
+  transition-delay: 1s;
+  -webkit-transform: rotate(360deg);
 }
 
 .about-me-footer-page {
