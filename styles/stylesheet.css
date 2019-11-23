@@ -112,12 +112,12 @@ h5 {
 }
 
 /*div p {
-  color: blue;
-  font-size: 20px;
+color: blue;
+font-size: 20px;
 .input-abt-me {
-  margin-left: 40px;
-  font-size: 18px;
-  color: #ff8c1a;
+margin-left: 40px;
+font-size: 18px;
+color: #ff8c1a;
 } */
 
 .my-goal {
@@ -176,7 +176,84 @@ h5 {
 
 .life-style p:nth-child(3){
 
-    color: #f00ce4;
-    font-family: 'Sofia', cursive;
+  color: #f00ce4;
+  font-family: 'Sofia', cursive;
 
+}
+/*  Contact form html styling for lesson-09*/
+button, input {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+input[type=submit] {
+  width: 10%;
+  background-color: lightblue;
+}
+input {
+  border-radius: 12px;
+}
+fieldset {
+  border: none;
+}
+fieldset input {
+  display: inline;
+}
+
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color:  #eee;
+}
+.checkbox label:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+/* When a checkbox is checked, add a blue background */
+.checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the checkmark when checked */
+.checkmark:after {
+  display: block;
+}
+/* Style the chackmar/indicator */
+.checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }

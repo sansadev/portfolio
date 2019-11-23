@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+<body>
+  <header class="header-project">
+    <h1>My HTML Projects</h1>
+
+
+    <p>This page will be focussing on list of projects i have done. It will include semantic elements, cats, superheros, Yoga and Breathing techniques.</p>
+
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about-me.html">About Me</a></li>
+      <li><a href="wellness.html">Wellness</a></li>
+      <li><a href="contact-form.html">Contact</a></li>
+    </ul>
+  </nav>
+  <h1>Contact Form</h1>
+  <form method="GET">
+    <label>FIrst Name:
+      <input type="text" name="firstname" value="John">
+    </label>
+    <label>Last Name:
+      <input type="text" name="lastname" value="Doe">
+    </label>
+    <label>Email:
+      <input type="email" name="applicantEmail">
+    </label>
+
+
+    <fieldset>
+      <legend>Gender</legend>
+      <label>Male
+        <input type="radio" name="gender" value="male" checked>
+      </label>
+      <label>Female
+        <input type="radio" name="gender" value="female">
+      </label>
+    </fieldset>
+
+    <label> How many friends you wanna make in a year?
+      <input type="number" name="friendCount">
+    </label>
+
+    <fieldset class="checkbox">
+
+      <legend>Cities You Prefer to hangout with a friend:</legend>
+      <label>Redmond
+        <input type="checkbox" name="city" value="Redmond">
+        <span class="checkmark"></span>
+      </label>
+      <label>Kirkland
+        <input type="checkbox" name="city" value="Kirkland">
+        <span class="checkmark"></span>
+      </label>
+      <label>Lynwood
+        <input type="checkbox" name="city" value="Lynwood">
+        <span class="checkmark"></span>
+      </label>
+
+    </fieldset>
+
+
+
+    <input type="submit" value="submit">
+  </form>
+</body>
+</html>
