@@ -53,8 +53,8 @@ li a {
   font-size: 20px;
 }
 nav a {
-  margin: .5 rem;
-  padding: .5rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 
@@ -148,8 +148,7 @@ h5 {
   justify-content: center;
   background-color: #414454;
   margin: 30px;
-  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
-  transition: width 2s, height 2s, transform 2s;
+
 
 }
 .my-goal > div:hover {
@@ -157,7 +156,7 @@ h5 {
   height: 800px;
   transition-duration: 4s;
   transition-delay: 1s;
-  -webkit-transform: rotate(360deg);
+
 }
 
 
@@ -209,7 +208,7 @@ input[type=submit] {
   background-color: lightblue;
 }
 input {
-  border-radius: 2s2px;
+  border-radius: 2px;
 }
 fieldset {
   border: none;
@@ -232,10 +231,8 @@ fieldset input {
   padding-left: 35px;
   margin-top: 12px;
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+
+
 }
 .checkmark {
   position: absolute;
@@ -269,7 +266,5 @@ fieldset input {
   height: 10px;
   border: solid white;
   border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
